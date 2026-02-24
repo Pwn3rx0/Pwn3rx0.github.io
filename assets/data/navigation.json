@@ -1,0 +1,1793 @@
+{
+  "categories": {
+    "Active Directory": {
+      "type": "directory",
+      "name": "Active Directory",
+      "path": "Active Directory",
+      "children": {
+        "AD Basics": {
+          "type": "file",
+          "name": "Active Directory Fundamentals",
+          "path": "/writeups/Active Directory/AD Basics/",
+          "title": "Active Directory Fundamentals",
+          "date": "2026-02-24T00:00:00.000Z",
+          "tags": [
+            "active-directory",
+            "windows-server",
+            "networking",
+            "cybersecurity"
+          ],
+          "series": null,
+          "excerpt": "A comprehensive guide to Active Directory structure, objects, group policies, and authentication protocols.",
+          "image": null
+        },
+        "Enumerating Active Directory": {
+          "type": "file",
+          "name": "Active Directory Enumeration & Credential Injection",
+          "path": "/writeups/Active Directory/Enumerating Active Directory/",
+          "title": "Active Directory Enumeration & Credential Injection",
+          "date": "2026-02-24T00:00:00.000Z",
+          "tags": [
+            "active-directory",
+            "enumeration",
+            "windows-security"
+          ],
+          "series": null,
+          "excerpt": "Techniques for injecting credentials using runas, verifying access, and performing deep AD enumeration using MMC, CMD, PowerShell, and Bloodhound.",
+          "image": null
+        },
+        "Lateral Movement and Pivoting": {
+          "type": "file",
+          "name": "Lateral Movement & Pivoting",
+          "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+          "title": "Lateral Movement & Pivoting",
+          "date": "2026-02-24T00:00:00.000Z",
+          "tags": [
+            "active-directory",
+            "lateral-movement",
+            "pivoting",
+            "red-team"
+          ],
+          "series": null,
+          "excerpt": "Comprehensive techniques for moving laterally through a Windows domain using remote execution, WMI, and alternate authentication materials.",
+          "image": null
+        }
+      },
+      "postCount": 3
+    },
+    "Malware DEV": {
+      "type": "directory",
+      "name": "Malware DEV",
+      "path": "Malware DEV",
+      "children": {
+        "DLL": {
+          "type": "directory",
+          "name": "DLL",
+          "path": "Malware DEV/DLL",
+          "children": {
+            "DLL": {
+              "type": "file",
+              "name": "Introduction to Dynamic Link Libraries (DLLs)",
+              "path": "/writeups/Malware DEV/DLL/DLL/",
+              "title": "Introduction to Dynamic Link Libraries (DLLs)",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "windows",
+                "programming",
+                "dll",
+                "c++",
+                "win-api"
+              ],
+              "series": null,
+              "excerpt": "Understanding the fundamentals of DLLs, their modular benefits, and a practical code example for creating a simple exported function.",
+              "image": null
+            },
+            "Manual DLL Call": {
+              "type": "file",
+              "name": "Manual DLL Function Calling",
+              "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+              "title": "Manual DLL Function Calling",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "windows",
+                "programming",
+                "dll",
+                "red-team",
+                "win-api"
+              ],
+              "series": null,
+              "excerpt": "A guide to dynamic function resolution in Windows using GetModuleHandle, LoadLibrary, and GetProcAddress for modularity and evasion.",
+              "image": null
+            }
+          },
+          "postCount": 2
+        },
+        "Encryption": {
+          "type": "directory",
+          "name": "Encryption",
+          "path": "Malware DEV/Encryption",
+          "children": {
+            "AES tiny": {
+              "type": "file",
+              "name": "Shellcode Encryption with Tiny AES",
+              "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+              "title": "Shellcode Encryption with Tiny AES",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "cryptography",
+                "malware-development",
+                "aes",
+                "c",
+                "evasion"
+              ],
+              "series": null,
+              "excerpt": "Implementing minimal AES-128 encryption and decryption for shellcode payloads using the Tiny AES library in C.",
+              "image": null
+            },
+            "Encryption": {
+              "type": "file",
+              "name": "Shellcode Obfuscation & Encryption",
+              "path": "/writeups/Malware DEV/Encryption/Encryption/",
+              "title": "Shellcode Obfuscation & Encryption",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "shellcode",
+                "encryption",
+                "evasion",
+                "red-team"
+              ],
+              "series": null,
+              "excerpt": "An overview of why shellcode encryption is vital for bypassing AV/EDR and a comparison of common encryption algorithms.",
+              "image": null
+            },
+            "RC4 Native API": {
+              "type": "file",
+              "name": "RC4 Stream Cipher (Native API)",
+              "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+              "title": "RC4 Stream Cipher (Native API)",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "cryptography",
+                "rc4",
+                "win-api",
+                "evasion"
+              ],
+              "series": null,
+              "excerpt": "Implementing RC4 encryption and decryption using the undocumented Windows SystemFunction032/033 for stealthy shellcode obfuscation.",
+              "image": null
+            },
+            "XOR 1 Key": {
+              "type": "file",
+              "name": "Single-Key XOR Obfuscation",
+              "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+              "title": "Single-Key XOR Obfuscation",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "cryptography",
+                "xor",
+                "obfuscation",
+                "evasion"
+              ],
+              "series": null,
+              "excerpt": "Implementing basic single-byte XOR encryption for shellcode, including a variation using index-based key rotation for improved entropy.",
+              "image": null
+            },
+            "XOR KEYS": {
+              "type": "file",
+              "name": "Multi-Key XOR Encryption",
+              "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+              "title": "Multi-Key XOR Encryption",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "cryptography",
+                "xor",
+                "obfuscation",
+                "evasion",
+                "include"
+              ],
+              "series": null,
+              "excerpt": "A guide to implementing multi-byte XOR encryption for shellcode payloads, providing better entropy and resistance to simple brute-forcing compared to single-byte methods.",
+              "image": null
+            }
+          },
+          "postCount": 5
+        },
+        "Execution": {
+          "type": "directory",
+          "name": "Execution",
+          "path": "Malware DEV/Execution",
+          "children": {
+            "APC Injection": {
+              "type": "file",
+              "name": "APC Injection",
+              "path": "/writeups/Malware DEV/Execution/APC Injection/",
+              "title": "APC Injection",
+              "date": "2026-02-24",
+              "tags": [],
+              "series": null,
+              "excerpt": "",
+              "image": null
+            },
+            "Callback Execution": {
+              "type": "file",
+              "name": "Callback Execution",
+              "path": "/writeups/Malware DEV/Execution/Callback Execution/",
+              "title": "Callback Execution",
+              "date": "2026-02-24",
+              "tags": [],
+              "series": null,
+              "excerpt": "",
+              "image": null
+            },
+            "Execution": {
+              "type": "file",
+              "name": "Shellcode Execution & Injection Strategies",
+              "path": "/writeups/Malware DEV/Execution/Execution/",
+              "title": "Shellcode Execution & Injection Strategies",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "process-injection",
+                "evasion",
+                "win-api",
+                "red-team"
+              ],
+              "series": null,
+              "excerpt": "An overview of stealthy techniques for transitioning shellcode from a static buffer into active execution, focusing on living-off-the-land and API abuse.",
+              "image": null
+            },
+            "Local Dll Execution": {
+              "type": "file",
+              "name": "Local DLL Execution",
+              "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+              "title": "Local DLL Execution",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "windows-internals",
+                "dll-loading",
+                "win-api",
+                "execution"
+              ],
+              "series": null,
+              "excerpt": "A practical guide to dynamically loading and executing DLLs locally using LoadLibraryA, including a breakdown of the DllMain entry point and execution flow.",
+              "image": null
+            },
+            "Local Payload Execution": {
+              "type": "file",
+              "name": "Local Payload Execution",
+              "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+              "title": "Local Payload Execution",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "shellcode",
+                "evasion",
+                "win-api",
+                "memory-management"
+              ],
+              "series": null,
+              "excerpt": "A technical guide on executing binary payloads directly in a local process's memory space using VirtualAlloc, VirtualProtect, and CreateThread.",
+              "image": null
+            },
+            "Remote Dll injection": {
+              "type": "file",
+              "name": "Remote DLL Injection",
+              "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+              "title": "Remote DLL Injection",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "dll-injection",
+                "win-api",
+                "process-manipulation",
+                "execution"
+              ],
+              "series": null,
+              "excerpt": "A technical deep dive into injecting a Dynamic-Link Library (DLL) into a remote process using VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread.",
+              "image": null
+            },
+            "Remote ShellCode Injection": {
+              "type": "file",
+              "name": "Remote Shellcode Injection",
+              "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+              "title": "Remote Shellcode Injection",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "shellcode-injection",
+                "win-api",
+                "process-manipulation",
+                "evasion"
+              ],
+              "series": null,
+              "excerpt": "A step-by-step guide and code implementation for injecting encrypted shellcode into a remote process using OpenProcess, VirtualAllocEx, and CreateRemoteThread.",
+              "image": null
+            }
+          },
+          "postCount": 7
+        },
+        "Make Malware": {
+          "type": "file",
+          "name": "Modular Malware Development & Defense Evasion",
+          "path": "/writeups/Malware DEV/Make Malware/",
+          "title": "Modular Malware Development & Defense Evasion",
+          "date": "2026-02-24T00:00:00.000Z",
+          "tags": [
+            "malware-development",
+            "defense-evasion",
+            "red-team",
+            "cybersecurity",
+            "windows-internals"
+          ],
+          "series": null,
+          "excerpt": "An introduction to the modular architecture of modern malware, focusing on the layers of encryption, obfuscation, and execution required to bypass EDR/AV solutions.",
+          "image": null
+        },
+        "Obfuscation": {
+          "type": "directory",
+          "name": "Obfuscation",
+          "path": "Malware DEV/Obfuscation",
+          "children": {
+            "Obfuscation Tools": {
+              "type": "file",
+              "name": "Obfuscation Tools",
+              "path": "/writeups/Malware DEV/Obfuscation/Obfuscation Tools/",
+              "title": "Obfuscation Tools",
+              "date": "2026-02-24",
+              "tags": [],
+              "series": null,
+              "excerpt": "",
+              "image": null
+            },
+            "Obfuscation": {
+              "type": "file",
+              "name": "The Art of Obfuscation",
+              "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+              "title": "The Art of Obfuscation",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "obfuscation",
+                "evasion",
+                "edr-bypass",
+                "red-team"
+              ],
+              "series": null,
+              "excerpt": "An exploration of techniques used to mask the intent and structure of shellcode loaders, including environmental keying and data masquerading.",
+              "image": null
+            },
+            "To IPs": {
+              "type": "file",
+              "name": "IPv4 Masquerading (Obfuscation)",
+              "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+              "title": "IPv4 Masquerading (Obfuscation)",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "obfuscation",
+                "evasion",
+                "shellcode",
+                "win-api"
+              ],
+              "series": null,
+              "excerpt": "A technique leveraging IPv4 address encoding to transform raw shellcode bytes into a list of human-readable IP strings, bypassing static signature-based detection.",
+              "image": null
+            }
+          },
+          "postCount": 3
+        },
+        "Payload Placement": {
+          "type": "directory",
+          "name": "Payload Placement",
+          "path": "Malware DEV/Payload Placement",
+          "children": {
+            "Payload Placement": {
+              "type": "file",
+              "name": "Payload Placement Architectures",
+              "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+              "title": "Payload Placement Architectures",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "malware-development",
+                "staging",
+                "stageless",
+                "evasion",
+                "architecture"
+              ],
+              "series": null,
+              "excerpt": "An analysis of staged vs. stageless payload architectures, focusing on the trade-offs between network stealth, file size, and detection surface.",
+              "image": null
+            },
+            "Staged": {
+              "type": "directory",
+              "name": "Staged",
+              "path": "Malware DEV/Payload Placement/Staged",
+              "children": {
+                "HTTP Stageing": {
+                  "type": "file",
+                  "name": "HTTP Stager & Remote Payload Delivery",
+                  "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+                  "title": "HTTP Stager & Remote Payload Delivery",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "shellcode",
+                    "win-api",
+                    "networking",
+                    "evasion"
+                  ],
+                  "series": null,
+                  "excerpt": "Understanding and implementing HTTP-based stagers for dynamic payload retrieval and in-memory execution using the WinINet API.",
+                  "image": null
+                },
+                "Staged Payload": {
+                  "type": "file",
+                  "name": "Staging & Multi-Stage Payloads",
+                  "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+                  "title": "Staging & Multi-Stage Payloads",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "staging",
+                    "evasion",
+                    "c2",
+                    "red-team"
+                  ],
+                  "series": null,
+                  "excerpt": "An introduction to the staging process, explaining how small initial payloads are used to retrieve and execute larger implants directly in memory to minimize the detection footprint.",
+                  "image": null
+                }
+              },
+              "postCount": 2
+            },
+            "Stageless": {
+              "type": "directory",
+              "name": "Stageless",
+              "path": "Malware DEV/Payload Placement/Stageless",
+              "children": {
+                "In Data Section": {
+                  "type": "file",
+                  "name": "Data Placement Payload in Data Section",
+                  "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+                  "title": "Data Placement Payload in Data Section",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "pe-format",
+                    "windows-internals",
+                    "shellcode",
+                    "evasion"
+                  ],
+                  "series": null,
+                  "excerpt": "Understanding how shellcode is stored within the initialized data segments (.data or .rdata) of a Portable Executable and its implications for static analysis.",
+                  "image": null
+                },
+                "In Rdata section": {
+                  "type": "file",
+                  "name": "Data Placement Payload in .rdata Section",
+                  "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+                  "title": "Data Placement Payload in .rdata Section",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "pe-format",
+                    "windows-internals",
+                    "shellcode",
+                    "evasion"
+                  ],
+                  "series": null,
+                  "excerpt": "Exploring the use of the read-only data section (.rdata) for shellcode storage and the memory protection requirements for execution.",
+                  "image": null
+                },
+                "In Rsrc Section": {
+                  "type": "file",
+                  "name": "Data Placement Payload in Resource Section (RSRC)",
+                  "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+                  "title": "Data Placement Payload in Resource Section (RSRC)",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "pe-format",
+                    "windows-internals",
+                    "rsrc",
+                    "stealth"
+                  ],
+                  "series": null,
+                  "excerpt": "Leveraging the Windows Portable Executable (PE) resource system to embed and retrieve shellcode payloads using FindResource, LoadResource, and LockResource APIs.",
+                  "image": null
+                },
+                "In Text Secrion": {
+                  "type": "file",
+                  "name": "Data Placement Payload in .text Section",
+                  "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+                  "title": "Data Placement Payload in .text Section",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "pe-format",
+                    "windows-internals",
+                    "shellcode",
+                    "evasion"
+                  ],
+                  "series": null,
+                  "excerpt": "Placing shellcode directly into the .text section (code segment) to inherit native execution permissions and bypass certain memory allocation signatures.",
+                  "image": null
+                },
+                "Stageless Payload": {
+                  "type": "file",
+                  "name": "Stageless Payloads & PE Data Placement",
+                  "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+                  "title": "Stageless Payloads & PE Data Placement",
+                  "date": "2026-02-24T00:00:00.000Z",
+                  "tags": [
+                    "malware-development",
+                    "pe-format",
+                    "stageless",
+                    "evasion",
+                    "static-analysis"
+                  ],
+                  "series": null,
+                  "excerpt": "An overview of stageless payload architecture and how developers leverage internal Portable Executable (PE) sections to hide malicious code within a single binary.",
+                  "image": null
+                }
+              },
+              "postCount": 5
+            }
+          },
+          "postCount": 8
+        },
+        "Windows API": {
+          "type": "directory",
+          "name": "Windows API",
+          "path": "Malware DEV/Windows API",
+          "children": {
+            "Windows API": {
+              "type": "file",
+              "name": "The Windows API (WinAPI)",
+              "path": "/writeups/Malware DEV/Windows API/Windows API/",
+              "title": "The Windows API (WinAPI)",
+              "date": "2026-02-24T00:00:00.000Z",
+              "tags": [
+                "windows-internals",
+                "winapi",
+                "system-programming",
+                "c-cpp",
+                "malware-development"
+              ],
+              "series": null,
+              "excerpt": "An introduction to the Windows API, its architecture, and the specific data types required for low-level system interaction and malware development.",
+              "image": null
+            },
+            "functions": {
+              "type": "directory",
+              "name": "functions",
+              "path": "Malware DEV/Windows API/functions",
+              "children": {
+                "DLL Stuff": {
+                  "type": "directory",
+                  "name": "DLL Stuff",
+                  "path": "Malware DEV/Windows API/functions/DLL Stuff",
+                  "children": {
+                    "GetModuleHandelw": {
+                      "type": "file",
+                      "name": "WinAPI: GetModuleHandleW",
+                      "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+                      "title": "WinAPI: GetModuleHandleW",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "winapi",
+                        "handles",
+                        "dll",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "Understanding GetModuleHandleW for retrieving base addresses of loaded modules, a critical step for dynamic function resolution and API hooking.",
+                      "image": null
+                    },
+                    "LoadLibrary": {
+                      "type": "file",
+                      "name": "WinAPI: LoadLibraryW",
+                      "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+                      "title": "WinAPI: LoadLibraryW",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "winapi",
+                        "dll",
+                        "runtime-linking",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "An overview of LoadLibraryW for dynamic DLL loading, enabling runtime function access and stealthy API usage.",
+                      "image": null
+                    }
+                  },
+                  "postCount": 2
+                },
+                "Memory Stuff": {
+                  "type": "directory",
+                  "name": "Memory Stuff",
+                  "path": "Malware DEV/Windows API/functions/Memory Stuff",
+                  "children": {
+                    "Allocate Memory": {
+                      "type": "file",
+                      "name": "WinAPI Memory Allocation",
+                      "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/",
+                      "title": "WinAPI Memory Allocation",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "memory-management",
+                        "winapi",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "A technical comparison of malloc, HeapAlloc, and LocalAlloc for allocating process memory on Windows systems.",
+                      "image": null
+                    },
+                    "Memcpy": {
+                      "type": "file",
+                      "name": "Buffer Operations: memcpy",
+                      "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+                      "title": "Buffer Operations: memcpy",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "memory-management",
+                        "c-programming",
+                        "shellcode",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "Understanding how to use the memcpy function to transfer data between buffers, specifically for moving payloads into allocated memory.",
+                      "image": null
+                    }
+                  },
+                  "postCount": 2
+                },
+                "Win API Functions": {
+                  "type": "file",
+                  "name": "Win API Functions",
+                  "path": "/writeups/Malware DEV/Windows API/functions/Win API Functions/",
+                  "title": "Win API Functions",
+                  "date": "2026-02-24",
+                  "tags": [],
+                  "series": null,
+                  "excerpt": "Common WinAPI Functions (Names Only)  - [MessageBox](/writeups/messagebox/) - [CreateFile](/writeups/createfile/) - [Allocate Memory](/writeups/Malwar...",
+                  "image": null
+                },
+                "normall Stuff": {
+                  "type": "directory",
+                  "name": "normall Stuff",
+                  "path": "Malware DEV/Windows API/functions/normall Stuff",
+                  "children": {
+                    "CreateFile": {
+                      "type": "file",
+                      "name": "WinAPI File Creation: CreateFileW",
+                      "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+                      "title": "WinAPI File Creation: CreateFileW",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "winapi",
+                        "file-io",
+                        "handles",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "Understanding the CreateFile API for creating, opening, and managing file handles on Windows, a fundamental step for staging payloads or exfiltrating data.",
+                      "image": null
+                    },
+                    "MessageBox": {
+                      "type": "file",
+                      "name": "WinAPI User Interaction: MessageBox",
+                      "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+                      "title": "WinAPI User Interaction: MessageBox",
+                      "date": "2026-02-24T00:00:00.000Z",
+                      "tags": [
+                        "windows-internals",
+                        "winapi",
+                        "user-interface",
+                        "c-programming",
+                        "malware-development"
+                      ],
+                      "series": null,
+                      "excerpt": "Understanding the MessageBox API for displaying modal dialogs, handling user input, and its use in environmental keying or sandbox detection.",
+                      "image": null
+                    }
+                  },
+                  "postCount": 2
+                }
+              },
+              "postCount": 7
+            }
+          },
+          "postCount": 8
+        }
+      },
+      "postCount": 34
+    },
+    "ctf notes": {
+      "type": "directory",
+      "name": "ctf notes",
+      "path": "ctf notes",
+      "children": {},
+      "postCount": 0
+    }
+  },
+  "tags": {
+    "active-directory": [
+      {
+        "title": "Active Directory Fundamentals",
+        "path": "/writeups/Active Directory/AD Basics/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Active Directory Enumeration & Credential Injection",
+        "path": "/writeups/Active Directory/Enumerating Active Directory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Lateral Movement & Pivoting",
+        "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "windows-server": [
+      {
+        "title": "Active Directory Fundamentals",
+        "path": "/writeups/Active Directory/AD Basics/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "networking": [
+      {
+        "title": "Active Directory Fundamentals",
+        "path": "/writeups/Active Directory/AD Basics/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "HTTP Stager & Remote Payload Delivery",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Active Directory Fundamentals",
+        "path": "/writeups/Active Directory/AD Basics/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Modular Malware Development & Defense Evasion",
+        "path": "/writeups/Malware DEV/Make Malware/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "enumeration": [
+      {
+        "title": "Active Directory Enumeration & Credential Injection",
+        "path": "/writeups/Active Directory/Enumerating Active Directory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "windows-security": [
+      {
+        "title": "Active Directory Enumeration & Credential Injection",
+        "path": "/writeups/Active Directory/Enumerating Active Directory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "lateral-movement": [
+      {
+        "title": "Lateral Movement & Pivoting",
+        "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "pivoting": [
+      {
+        "title": "Lateral Movement & Pivoting",
+        "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "red-team": [
+      {
+        "title": "Lateral Movement & Pivoting",
+        "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Manual DLL Function Calling",
+        "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Obfuscation & Encryption",
+        "path": "/writeups/Malware DEV/Encryption/Encryption/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Execution & Injection Strategies",
+        "path": "/writeups/Malware DEV/Execution/Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Modular Malware Development & Defense Evasion",
+        "path": "/writeups/Malware DEV/Make Malware/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Art of Obfuscation",
+        "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Staging & Multi-Stage Payloads",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "windows": [
+      {
+        "title": "Introduction to Dynamic Link Libraries (DLLs)",
+        "path": "/writeups/Malware DEV/DLL/DLL/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Manual DLL Function Calling",
+        "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "programming": [
+      {
+        "title": "Introduction to Dynamic Link Libraries (DLLs)",
+        "path": "/writeups/Malware DEV/DLL/DLL/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Manual DLL Function Calling",
+        "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "dll": [
+      {
+        "title": "Introduction to Dynamic Link Libraries (DLLs)",
+        "path": "/writeups/Malware DEV/DLL/DLL/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Manual DLL Function Calling",
+        "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: GetModuleHandleW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: LoadLibraryW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "c++": [
+      {
+        "title": "Introduction to Dynamic Link Libraries (DLLs)",
+        "path": "/writeups/Malware DEV/DLL/DLL/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "win-api": [
+      {
+        "title": "Introduction to Dynamic Link Libraries (DLLs)",
+        "path": "/writeups/Malware DEV/DLL/DLL/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Manual DLL Function Calling",
+        "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "RC4 Stream Cipher (Native API)",
+        "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Execution & Injection Strategies",
+        "path": "/writeups/Malware DEV/Execution/Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local DLL Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local Payload Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote DLL Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote Shellcode Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "IPv4 Masquerading (Obfuscation)",
+        "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "HTTP Stager & Remote Payload Delivery",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "cryptography": [
+      {
+        "title": "Shellcode Encryption with Tiny AES",
+        "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "RC4 Stream Cipher (Native API)",
+        "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Single-Key XOR Obfuscation",
+        "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "malware-development": [
+      {
+        "title": "Shellcode Encryption with Tiny AES",
+        "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Obfuscation & Encryption",
+        "path": "/writeups/Malware DEV/Encryption/Encryption/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "RC4 Stream Cipher (Native API)",
+        "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Single-Key XOR Obfuscation",
+        "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Execution & Injection Strategies",
+        "path": "/writeups/Malware DEV/Execution/Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local DLL Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local Payload Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote DLL Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote Shellcode Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Modular Malware Development & Defense Evasion",
+        "path": "/writeups/Malware DEV/Make Malware/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Art of Obfuscation",
+        "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "IPv4 Masquerading (Obfuscation)",
+        "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Payload Placement Architectures",
+        "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "HTTP Stager & Remote Payload Delivery",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Staging & Multi-Stage Payloads",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Data Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .rdata Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Resource Section (RSRC)",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .text Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Stageless Payloads & PE Data Placement",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Windows API (WinAPI)",
+        "path": "/writeups/Malware DEV/Windows API/Windows API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: GetModuleHandleW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: LoadLibraryW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI Memory Allocation",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Buffer Operations: memcpy",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI File Creation: CreateFileW",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI User Interaction: MessageBox",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "aes": [
+      {
+        "title": "Shellcode Encryption with Tiny AES",
+        "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "c": [
+      {
+        "title": "Shellcode Encryption with Tiny AES",
+        "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "evasion": [
+      {
+        "title": "Shellcode Encryption with Tiny AES",
+        "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Obfuscation & Encryption",
+        "path": "/writeups/Malware DEV/Encryption/Encryption/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "RC4 Stream Cipher (Native API)",
+        "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Single-Key XOR Obfuscation",
+        "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Shellcode Execution & Injection Strategies",
+        "path": "/writeups/Malware DEV/Execution/Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local Payload Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote Shellcode Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Art of Obfuscation",
+        "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "IPv4 Masquerading (Obfuscation)",
+        "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Payload Placement Architectures",
+        "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "HTTP Stager & Remote Payload Delivery",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Staging & Multi-Stage Payloads",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Data Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .rdata Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .text Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Stageless Payloads & PE Data Placement",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "shellcode": [
+      {
+        "title": "Shellcode Obfuscation & Encryption",
+        "path": "/writeups/Malware DEV/Encryption/Encryption/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Local Payload Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "IPv4 Masquerading (Obfuscation)",
+        "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "HTTP Stager & Remote Payload Delivery",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Data Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .rdata Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .text Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Buffer Operations: memcpy",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "encryption": [
+      {
+        "title": "Shellcode Obfuscation & Encryption",
+        "path": "/writeups/Malware DEV/Encryption/Encryption/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "rc4": [
+      {
+        "title": "RC4 Stream Cipher (Native API)",
+        "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "xor": [
+      {
+        "title": "Single-Key XOR Obfuscation",
+        "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "obfuscation": [
+      {
+        "title": "Single-Key XOR Obfuscation",
+        "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Art of Obfuscation",
+        "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "IPv4 Masquerading (Obfuscation)",
+        "path": "/writeups/Malware DEV/Obfuscation/To IPs/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "include": [
+      {
+        "title": "Multi-Key XOR Encryption",
+        "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "process-injection": [
+      {
+        "title": "Shellcode Execution & Injection Strategies",
+        "path": "/writeups/Malware DEV/Execution/Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "windows-internals": [
+      {
+        "title": "Local DLL Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Modular Malware Development & Defense Evasion",
+        "path": "/writeups/Malware DEV/Make Malware/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Data Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .rdata Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Resource Section (RSRC)",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .text Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "The Windows API (WinAPI)",
+        "path": "/writeups/Malware DEV/Windows API/Windows API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: GetModuleHandleW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: LoadLibraryW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI Memory Allocation",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Buffer Operations: memcpy",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI File Creation: CreateFileW",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI User Interaction: MessageBox",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "dll-loading": [
+      {
+        "title": "Local DLL Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "execution": [
+      {
+        "title": "Local DLL Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Dll Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote DLL Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "memory-management": [
+      {
+        "title": "Local Payload Execution",
+        "path": "/writeups/Malware DEV/Execution/Local Payload Execution/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI Memory Allocation",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Buffer Operations: memcpy",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "dll-injection": [
+      {
+        "title": "Remote DLL Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "process-manipulation": [
+      {
+        "title": "Remote DLL Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote Dll injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Remote Shellcode Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "shellcode-injection": [
+      {
+        "title": "Remote Shellcode Injection",
+        "path": "/writeups/Malware DEV/Execution/Remote ShellCode Injection/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "defense-evasion": [
+      {
+        "title": "Modular Malware Development & Defense Evasion",
+        "path": "/writeups/Malware DEV/Make Malware/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "edr-bypass": [
+      {
+        "title": "The Art of Obfuscation",
+        "path": "/writeups/Malware DEV/Obfuscation/Obfuscation/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "staging": [
+      {
+        "title": "Payload Placement Architectures",
+        "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Staging & Multi-Stage Payloads",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "stageless": [
+      {
+        "title": "Payload Placement Architectures",
+        "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Stageless Payloads & PE Data Placement",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "architecture": [
+      {
+        "title": "Payload Placement Architectures",
+        "path": "/writeups/Malware DEV/Payload Placement/Payload Placement/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "c2": [
+      {
+        "title": "Staging & Multi-Stage Payloads",
+        "path": "/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "pe-format": [
+      {
+        "title": "Data Placement Payload in Data Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .rdata Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in Resource Section (RSRC)",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Data Placement Payload in .text Section",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "Stageless Payloads & PE Data Placement",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "rsrc": [
+      {
+        "title": "Data Placement Payload in Resource Section (RSRC)",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "stealth": [
+      {
+        "title": "Data Placement Payload in Resource Section (RSRC)",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "static-analysis": [
+      {
+        "title": "Stageless Payloads & PE Data Placement",
+        "path": "/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "winapi": [
+      {
+        "title": "The Windows API (WinAPI)",
+        "path": "/writeups/Malware DEV/Windows API/Windows API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: GetModuleHandleW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI: LoadLibraryW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI Memory Allocation",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI File Creation: CreateFileW",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI User Interaction: MessageBox",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "system-programming": [
+      {
+        "title": "The Windows API (WinAPI)",
+        "path": "/writeups/Malware DEV/Windows API/Windows API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "c-cpp": [
+      {
+        "title": "The Windows API (WinAPI)",
+        "path": "/writeups/Malware DEV/Windows API/Windows API/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "handles": [
+      {
+        "title": "WinAPI: GetModuleHandleW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI File Creation: CreateFileW",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "runtime-linking": [
+      {
+        "title": "WinAPI: LoadLibraryW",
+        "path": "/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "c-programming": [
+      {
+        "title": "Buffer Operations: memcpy",
+        "path": "/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/",
+        "date": "2026-02-24T00:00:00.000Z"
+      },
+      {
+        "title": "WinAPI User Interaction: MessageBox",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "file-io": [
+      {
+        "title": "WinAPI File Creation: CreateFileW",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ],
+    "user-interface": [
+      {
+        "title": "WinAPI User Interaction: MessageBox",
+        "path": "/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/",
+        "date": "2026-02-24T00:00:00.000Z"
+      }
+    ]
+  },
+  "totalPosts": 37,
+  "recentPosts": [
+    {
+      "title": "Active Directory Fundamentals",
+      "path": "/writeups/Active Directory/AD Basics/",
+      "tags": [
+        "active-directory",
+        "windows-server",
+        "networking",
+        "cybersecurity"
+      ],
+      "category": "Active Directory",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "A comprehensive guide to Active Directory structure, objects, group policies, and authentication protocols.",
+      "image": null
+    },
+    {
+      "title": "Active Directory Enumeration & Credential Injection",
+      "path": "/writeups/Active Directory/Enumerating Active Directory/",
+      "tags": [
+        "active-directory",
+        "enumeration",
+        "windows-security"
+      ],
+      "category": "Active Directory",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Techniques for injecting credentials using runas, verifying access, and performing deep AD enumeration using MMC, CMD, PowerShell, and Bloodhound.",
+      "image": null
+    },
+    {
+      "title": "Lateral Movement & Pivoting",
+      "path": "/writeups/Active Directory/Lateral Movement and Pivoting/",
+      "tags": [
+        "active-directory",
+        "lateral-movement",
+        "pivoting",
+        "red-team"
+      ],
+      "category": "Active Directory",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Comprehensive techniques for moving laterally through a Windows domain using remote execution, WMI, and alternate authentication materials.",
+      "image": null
+    },
+    {
+      "title": "Introduction to Dynamic Link Libraries (DLLs)",
+      "path": "/writeups/Malware DEV/DLL/DLL/",
+      "tags": [
+        "windows",
+        "programming",
+        "dll",
+        "c++",
+        "win-api"
+      ],
+      "category": "Malware DEV / DLL",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Understanding the fundamentals of DLLs, their modular benefits, and a practical code example for creating a simple exported function.",
+      "image": null
+    },
+    {
+      "title": "Manual DLL Function Calling",
+      "path": "/writeups/Malware DEV/DLL/Manual DLL Call/",
+      "tags": [
+        "windows",
+        "programming",
+        "dll",
+        "red-team",
+        "win-api"
+      ],
+      "category": "Malware DEV / DLL",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "A guide to dynamic function resolution in Windows using GetModuleHandle, LoadLibrary, and GetProcAddress for modularity and evasion.",
+      "image": null
+    },
+    {
+      "title": "Shellcode Encryption with Tiny AES",
+      "path": "/writeups/Malware DEV/Encryption/AES tiny/",
+      "tags": [
+        "cryptography",
+        "malware-development",
+        "aes",
+        "c",
+        "evasion"
+      ],
+      "category": "Malware DEV / Encryption",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Implementing minimal AES-128 encryption and decryption for shellcode payloads using the Tiny AES library in C.",
+      "image": null
+    },
+    {
+      "title": "Shellcode Obfuscation & Encryption",
+      "path": "/writeups/Malware DEV/Encryption/Encryption/",
+      "tags": [
+        "malware-development",
+        "shellcode",
+        "encryption",
+        "evasion",
+        "red-team"
+      ],
+      "category": "Malware DEV / Encryption",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "An overview of why shellcode encryption is vital for bypassing AV/EDR and a comparison of common encryption algorithms.",
+      "image": null
+    },
+    {
+      "title": "RC4 Stream Cipher (Native API)",
+      "path": "/writeups/Malware DEV/Encryption/RC4 Native API/",
+      "tags": [
+        "malware-development",
+        "cryptography",
+        "rc4",
+        "win-api",
+        "evasion"
+      ],
+      "category": "Malware DEV / Encryption",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Implementing RC4 encryption and decryption using the undocumented Windows SystemFunction032/033 for stealthy shellcode obfuscation.",
+      "image": null
+    },
+    {
+      "title": "Single-Key XOR Obfuscation",
+      "path": "/writeups/Malware DEV/Encryption/XOR 1 Key/",
+      "tags": [
+        "malware-development",
+        "cryptography",
+        "xor",
+        "obfuscation",
+        "evasion"
+      ],
+      "category": "Malware DEV / Encryption",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "Implementing basic single-byte XOR encryption for shellcode, including a variation using index-based key rotation for improved entropy.",
+      "image": null
+    },
+    {
+      "title": "Multi-Key XOR Encryption",
+      "path": "/writeups/Malware DEV/Encryption/XOR KEYS/",
+      "tags": [
+        "malware-development",
+        "cryptography",
+        "xor",
+        "obfuscation",
+        "evasion",
+        "include"
+      ],
+      "category": "Malware DEV / Encryption",
+      "date": "2026-02-24T00:00:00.000Z",
+      "series": null,
+      "excerpt": "A guide to implementing multi-byte XOR encryption for shellcode payloads, providing better entropy and resistance to simple brute-forcing compared to single-byte methods.",
+      "image": null
+    }
+  ]
+}

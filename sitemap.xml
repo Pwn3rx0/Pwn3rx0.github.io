@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/about/</loc></url>
+  <url><loc>/search/</loc></url>
+  <url><loc>/map/</loc></url>
+  <url><loc>/category/Active Directory/</loc></url>
+  <url><loc>/category/Malware DEV/</loc></url>
+  <url><loc>/category/Malware DEV/DLL/</loc></url>
+  <url><loc>/category/Malware DEV/Encryption/</loc></url>
+  <url><loc>/category/Malware DEV/Execution/</loc></url>
+  <url><loc>/category/Malware DEV/Obfuscation/</loc></url>
+  <url><loc>/category/Malware DEV/Payload Placement/</loc></url>
+  <url><loc>/category/Malware DEV/Payload Placement/Staged/</loc></url>
+  <url><loc>/category/Malware DEV/Payload Placement/Stageless/</loc></url>
+  <url><loc>/category/Malware DEV/Windows API/</loc></url>
+  <url><loc>/category/Malware DEV/Windows API/functions/</loc></url>
+  <url><loc>/category/Malware DEV/Windows API/functions/DLL Stuff/</loc></url>
+  <url><loc>/category/Malware DEV/Windows API/functions/Memory Stuff/</loc></url>
+  <url><loc>/category/Malware DEV/Windows API/functions/normall Stuff/</loc></url>
+  <url><loc>/category/ctf notes/</loc></url>
+  <url><loc>/writeups/Active Directory/AD Basics/</loc></url>
+  <url><loc>/writeups/Active Directory/Enumerating Active Directory/</loc></url>
+  <url><loc>/writeups/Active Directory/Lateral Movement and Pivoting/</loc></url>
+  <url><loc>/writeups/Malware DEV/DLL/DLL/</loc></url>
+  <url><loc>/writeups/Malware DEV/DLL/Manual DLL Call/</loc></url>
+  <url><loc>/writeups/Malware DEV/Encryption/AES tiny/</loc></url>
+  <url><loc>/writeups/Malware DEV/Encryption/Encryption/</loc></url>
+  <url><loc>/writeups/Malware DEV/Encryption/RC4 Native API/</loc></url>
+  <url><loc>/writeups/Malware DEV/Encryption/XOR 1 Key/</loc></url>
+  <url><loc>/writeups/Malware DEV/Encryption/XOR KEYS/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/APC Injection/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Callback Execution/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Execution/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Local Dll Execution/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Local Payload Execution/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Remote Dll injection/</loc></url>
+  <url><loc>/writeups/Malware DEV/Execution/Remote ShellCode Injection/</loc></url>
+  <url><loc>/writeups/Malware DEV/Make Malware/</loc></url>
+  <url><loc>/writeups/Malware DEV/Obfuscation/Obfuscation Tools/</loc></url>
+  <url><loc>/writeups/Malware DEV/Obfuscation/Obfuscation/</loc></url>
+  <url><loc>/writeups/Malware DEV/Obfuscation/To IPs/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Payload Placement/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Staged/HTTP Stageing/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Staged/Staged Payload/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Stageless/In Data Section/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Stageless/In Rdata section/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Stageless/In Rsrc Section/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Stageless/In Text Secrion/</loc></url>
+  <url><loc>/writeups/Malware DEV/Payload Placement/Stageless/Stageless Payload/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/Windows API/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/DLL Stuff/GetModuleHandelw/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/DLL Stuff/LoadLibrary/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/Memory Stuff/Allocate Memory/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/Memory Stuff/Memcpy/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/Win API Functions/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/normall Stuff/CreateFile/</loc></url>
+  <url><loc>/writeups/Malware DEV/Windows API/functions/normall Stuff/MessageBox/</loc></url>
+</urlset>
