@@ -17,9 +17,3 @@ This repository hosts my personal technical blog and research notes, focused on 
     
 * **CTF Notes:** Structured documentation from competitive play, including specialized scripts for binary exploitation and custom crypto-cracking.
 * **Offensive Lab:** Documentation for a local modular security simulation framework built in C to replicate real-world threat actor behaviors.
-
----
-## Technical Stack
-* **Low-Level:** C/C++ for WinAPI interaction and custom payload development.
-* **Automation:** Python & PowerShell for rapid tool development and AI-driven obfuscation.
-* **Documentation:** Obsidian-linked Markdown for a high-speed, searchable knowledge base.
