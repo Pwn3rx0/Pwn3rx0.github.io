@@ -1,4 +1,4 @@
-## pwn3rx0 | Andrew Mamdouh 
+# pwn3rx0 | Andrew Mamdouh Blog
 
 <div align="center">
     <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4a18cf20-25ef-4090-9625-22b13a471133" />
