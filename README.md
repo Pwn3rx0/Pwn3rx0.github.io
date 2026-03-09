@@ -1,6 +1,8 @@
 ## pwn3rx0 | Andrew Mamdouh 
-<center><img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4a18cf20-25ef-4090-9625-22b13a471133" /> </center>
 
+<div align="center">
+    <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4a18cf20-25ef-4090-9625-22b13a471133" />
+</div>
 This repository hosts my personal technical blog and research notes, focused on the lower-level mechanics of offensive security. 
 
 ---
